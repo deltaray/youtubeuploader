@@ -16,6 +16,7 @@ This project uses ['dep'](https://github.com/golang/dep) for [vendoring](https:/
 - Install Go e.g. `yum install golang` or `apt-get install golang`
 - Define your Go Path e.g. `export GOPATH=$HOME/go`
 - Fetch the project `go get github.com/porjo/youtubeuploader`
+- run `cd $GOPATH/src/github.com/porjo/youtubeuploader`
 - run `dep ensure` in the project root
 - run `go build`
 
